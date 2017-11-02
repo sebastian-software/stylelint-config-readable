@@ -1,0 +1,23 @@
+{
+  "name": "stylelint-config-readable",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "prettier": "^1.7.4",
+    "stylelint": "^8.2.0",
+    "stylelint-formatter-pretty": "^1.0.3",
+    "stylelint-order": "^0.7.0",
+    "stylelint-scss": "^2.1.0"
+  },
+  "author": {
+    "name": "Sebastian Software",
+    "email": "s.werner@sebastian-software.de",
+    "url": "sebastian-software.de"
+  },
+  "license": "Apache-2.0",
+  "repository": "https://github.com/sebastian-software/stylelint-config-readable"
+}

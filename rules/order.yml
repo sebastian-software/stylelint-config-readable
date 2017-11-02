@@ -1,0 +1,74 @@
+plugins:
+  - stylelint-order
+
+rules:
+  order/order:
+    -
+      - type: at-rule
+        name: extend
+      - type: at-rule
+        name: include
+      - custom-properties
+      - dollar-variables
+      - declarations
+      - rules
+      - type: at-rule
+        name: media
+    - unspecified: "ignore"
+
+  order/properties-order:
+    # Logic
+    - emptyLineBefore: always
+      order: flexible
+      properties: [
+        composes
+      ]
+
+    # Content
+    - emptyLineBefore: always
+      order: flexible
+      properties: [
+        content, src
+      ]
+
+    # Positioning & Layout
+    - emptyLineBefore: always
+      order: flexible
+      properties: [
+        position, z-index,
+        overflow, box-sizing,
+        display, float, clear,
+        top, right, bottom, left,
+        flex, flex-basis, flex-direction, flex-flow, flex-grow, flex-shrink, flex-wrap,
+        justify-content, align, align-items, align-content, align-self, order,
+        min-width, width, max-width,
+        min-height, height, max-height,
+        padding, margin,
+        padding-top, padding-right, padding-bottom, padding-left,
+        margin-top, margin-right, margin-bottom, margin-left,
+        columns, column-gap, column-fill, column-rule, column-span, column-count, column-width
+      ]
+
+    # Appearance, Colors & Animation
+    - emptyLineBefore: always
+      order: flexible
+      properties: [
+        background, background-color, background-repeat, background-clip, background-repeat,
+        background-position, background-position-x, background-position-y,
+        background-position-x, background-position-y,
+        box-shadow,
+        border, border-color, border-width,
+        border-left, border-left-color, border-left-width,
+        border-right, border-right-color, border-right-width,
+        border-top, border-top-color, border-top-width,
+        border-bottom, border-bottom-color, border-bottom-width,
+        outline, outline-color, outline-width, outline-offset,
+        color, text-shadow, cursor,
+        font, font-family, font-size, font-weight, font-style,
+        text-align, text-decoration, text-indent, text-overflow, text-rendering, text-shadow, text-transform,
+        line-height, word-spacing, letter-spacing, white-space, quotes,
+        list-style, caption-side, table-layout, border-collapse, border-spacing, empty-cells,
+        opacity, animation, transform, transform-origin,
+        transition, transition-property, transition-duration, transition-timing-function, transition-delay,
+        will-change, filter
+      ]
