@@ -9,6 +9,17 @@
     "release:major": "git push && release-it --github.release --npm.publish --non-interactive --increment major",
     "test": "stylelint test/success.css"
   },
+  "author": {
+    "name": "Sebastian Software",
+    "email": "s.werner@sebastian-software.de",
+    "url": "https://www.sebastian-software.de"
+  },
+  "files": [
+    "index.js",
+    "rules/"
+  ],
+  "license": "Apache-2.0",
+  "repository": "https://github.com/sebastian-software/stylelint-config-readable",
   "dependencies": {
     "prettier": "^1.8.2",
     "stylelint": "^8.2.0",
@@ -16,13 +27,6 @@
     "stylelint-order": "^0.7.0",
     "stylelint-scss": "^2.1.0"
   },
-  "author": {
-    "name": "Sebastian Software",
-    "email": "s.werner@sebastian-software.de",
-    "url": "https://www.sebastian-software.de"
-  },
-  "license": "Apache-2.0",
-  "repository": "https://github.com/sebastian-software/stylelint-config-readable",
   "devDependencies": {
     "npm-check-updates": "^2.13.0",
     "release-it": "^4.4.1"
