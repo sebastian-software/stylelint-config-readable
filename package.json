@@ -19,5 +19,9 @@
     "url": "sebastian-software.de"
   },
   "license": "Apache-2.0",
-  "repository": "https://github.com/sebastian-software/stylelint-config-readable"
+  "repository": "https://github.com/sebastian-software/stylelint-config-readable",
+  "devDependencies": {
+    "npm-check-updates": "^2.13.0",
+    "release-it": "^4.4.1"
+  }
 }
