@@ -1,4 +1,4 @@
-# Stylelint Config Readable<br/>[![Sponsored by][sponsor-img]][sponsor] [![Version][npm-img]][npm] [![Dependencies][deps-img]][deps] [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+# Stylelint Config Readable<br/>[![Sponsored by][sponsor-img]][sponsor] [![Version][npm-img]][npm] [![Dependencies][deps-img]][deps]
 
 [sponsor-img]: https://img.shields.io/badge/Sponsored%20by-Sebastian%20Software-692446.svg
 [sponsor]: https://www.sebastian-software.de
@@ -26,6 +26,37 @@
 - 80 characters max line length
 - Use lowercase properties, selectors, mixin names, etc. only
 - Requires property splitting between layout (position, margin, padding, size) and visuals (appearance, colors, animation)
+
+
+## Usage
+
+Installation via NPM:
+
+```bash
+npm install --save-dev stylelint-config-readable stylelint
+```
+
+Installation with Yarn:
+
+```bash
+yarn add --dev stylelint-config-readable stylelint
+```
+
+Add the preset to your stylelint config e.g. `.stylelintrc.yml`
+
+```yaml
+extends:
+  - stylelint-config-readable
+```
+
+You can place your overrides and additions into the `rules` section as well:
+
+```yaml
+extends:
+  - stylelint-config-readable
+rules:
+  indentation: 4
+```
 
 
 ## Copyright
