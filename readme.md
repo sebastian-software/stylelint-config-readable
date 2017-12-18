@@ -31,6 +31,6 @@
 
 ## Copyright
 
-<img src="https://github.com/sebastian-software/sebastian-software-brand/raw/master/sebastiansoftware-en.svg?sanitize=true" alt="Sebastian Software GmbH Logo" width="250" style="box-shadow: 0px 0px 1px 1px rgba(73,34,51,0.2)"/>
+<img src="https://github.com/sebastian-software/sebastian-software-brand/raw/master/sebastiansoftware-en.svg?sanitize=true" alt="Sebastian Software GmbH Logo" width="250" />
 
 Copyright 2015-2018<br/>[Sebastian Software GmbH](http://www.sebastian-software.de)
