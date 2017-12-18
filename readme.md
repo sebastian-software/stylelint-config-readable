@@ -3,23 +3,34 @@
 [sponsor-img]: https://img.shields.io/badge/Sponsored%20by-Sebastian%20Software-692446.svg
 [sponsor]: https://www.sebastian-software.de
 [deps]: https://david-dm.org/sebastian-software/stylelint-config-readable
-[deps-img]: https://david-dm.org/sebastian-software/stylelint-config-readable.svg
+[deps-img]: https://david-dm.org/sebastian-software/stylelint-config-readable/status.svg
 [npm]: https://www.npmjs.com/package/stylelint-config-readable
 [npm-downloads-img]: https://img.shields.io/npm/dm/stylelint-config-readable.svg
 [npm-version-img]: https://img.shields.io/npm/v/stylelint-config-readable.svg
 
 
-
-## Goals
-
-- Don't try to prematurely optimize your code; keep it readable and understandable.
-- All code in any code-base should look like a single person typed it, even when many people are contributing to it.
-
 > "If you want your code to be easy to write, make it easy to read." -- Robert C. Martin
+
+
+## Features
+
+- Blocks usage of `!important`.
+- Correctly supports typical *Sass* dialects like `@mixin`.
+- Tolerates `normalize` PostCSS plugin for automatically cherry-pick required normalization features.
+- Tolerates CSS Modules `composes` feature.
+- Tolerates Lost Grid features.
+- Checks CSS animation/transition for performance issues.
+
+## Formatting
+
+- Use 2 spaces for indention
+- 80 characters max line length
+- Use lowercase properties, selectors, mixin names, etc. only
+- Requires property splitting between layout (position, margin, padding, size) and visuals (appearance, colors, animation)
 
 
 ## Copyright
 
-<img src="https://github.com/sebastian-software/sebastian-software-brand/raw/master/sebastiansoftware-en.svg?sanitize=true" alt="Sebastian Software GmbH Logo" width="250" />
+<img src="https://github.com/sebastian-software/sebastian-software-brand/raw/master/sebastiansoftware-en.svg?sanitize=true" alt="Sebastian Software GmbH Logo" width="250" style="box-shadow: 0px 0px 1px 1px rgba(73,34,51,0.2)"/>
 
 Copyright 2015-2018<br/>[Sebastian Software GmbH](http://www.sebastian-software.de)
