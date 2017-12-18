@@ -18,23 +18,6 @@
 > "If you want your code to be easy to write, make it easy to read." -- Robert C. Martin
 
 
-
-
-
-### Prettier ([Project](https://github.com/prettier/prettier))
-
-Auto formatting engine for JavaScript (+ ES2017, JSX, and Flow) which intelligently supports limiting line length and other more advanced features.
-
-
-
-## Other Prominent Styles
-
-
-
-> See also: [NPM Usage Comparison](https://npmcharts.com/compare/eslint-config-airbnb,eslint-config-standard,eslint-config-xo,eslint-config-google?minimal=true) between Airbnb, XO, Google and Standard.
-
-
-
 ## Copyright
 
 <img src="https://raw.githubusercontent.com/sebastian-software/readable-code/master/assets/sebastiansoftware.png" alt="Sebastian Software GmbH Logo" width="250" height="200"/>

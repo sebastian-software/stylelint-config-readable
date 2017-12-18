@@ -29,7 +29,6 @@
     "stylelint-scss": "^2.2.0"
   },
   "devDependencies": {
-    "npm-check-updates": "^2.13.0",
     "release-it": "^5.1.2"
   }
 }
