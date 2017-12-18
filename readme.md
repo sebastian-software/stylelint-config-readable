@@ -20,6 +20,6 @@
 
 ## Copyright
 
-<img src="https://raw.githubusercontent.com/sebastian-software/readable-code/master/assets/sebastiansoftware.png" alt="Sebastian Software GmbH Logo" width="250" height="200"/>
+<img src="https://raw.githubusercontent.com/sebastian-software/sebastian-software-brand/master/sebastiansoftware-en.svg" alt="Sebastian Software GmbH Logo" width="250" />
 
-Copyright 2015-2017<br/>[Sebastian Software GmbH](http://www.sebastian-software.de)
+Copyright 2015-2018<br/>[Sebastian Software GmbH](http://www.sebastian-software.de)
