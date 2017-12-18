@@ -5,7 +5,7 @@
 [deps]: https://david-dm.org/sebastian-software/stylelint-config-readable
 [deps-img]: https://david-dm.org/sebastian-software/stylelint-config-readable/status.svg
 [npm]: https://www.npmjs.com/package/stylelint-config-readable
-[npm-img]: https://img.shields.io/npm/v/stylelint-config-readable.svg
+[npm-img]: https://badge.fury.io/js/stylelint-config-readable.svg
 
 
 > "If you want your code to be easy to write, make it easy to read." -- Robert C. Martin
