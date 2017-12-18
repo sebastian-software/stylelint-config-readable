@@ -21,14 +21,14 @@
   "license": "Apache-2.0",
   "repository": "https://github.com/sebastian-software/stylelint-config-readable",
   "dependencies": {
-    "prettier": "^1.8.2",
-    "stylelint": "^8.3.1",
+    "prettier": "^1.9.2",
+    "stylelint": "^8.4.0",
     "stylelint-formatter-pretty": "^1.0.3",
-    "stylelint-order": "^0.7.0",
-    "stylelint-scss": "^2.1.0"
+    "stylelint-order": "^0.8.0",
+    "stylelint-scss": "^2.2.0"
   },
   "devDependencies": {
     "npm-check-updates": "^2.13.0",
-    "release-it": "^5.0.0"
+    "release-it": "^5.1.2"
   }
 }
