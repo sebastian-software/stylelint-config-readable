@@ -30,13 +30,13 @@
 
 ## Usage
 
-Installation via NPM:
+Installation with `npm`:
 
 ```bash
 npm install --save-dev stylelint-config-readable stylelint
 ```
 
-Installation with Yarn:
+Installation with `yarn`:
 
 ```bash
 yarn add --dev stylelint-config-readable stylelint
