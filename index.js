@@ -8,6 +8,7 @@ module.exports = {
     "./rules/functions.yml",
     "./rules/mediaquery.yml",
     "./rules/order.yml",
+    "./rules/performance.yml",
     "./rules/rules.yml",
     "./rules/scss.yml",
     "./rules/selector.yml",

@@ -1,0 +1,5 @@
+plugins:
+  - stylelint-performance-animation
+
+rules:
+  plugin/no-low-performance-animation: true
