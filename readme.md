@@ -7,8 +7,11 @@
 [npm]: https://www.npmjs.com/package/stylelint-config-readable
 [npm-img]: https://badge.fury.io/js/stylelint-config-readable.svg
 
+The aim of this configuration is to achieve optimal readable code for a large number of projects. In many cases, the easing of the code's looseness in comparison to its compactness is an advantage for this. The idea is that code is much more read than written. Clear and structured code is therefore valuable for each additional author.
 
-> "If you want your code to be easy to write, make it easy to read." -- Robert C. Martin
+There is also the matching [ESLint configuration](https://www.npmjs.com/package/eslint-config-readable) available.
+
+> "If you want your code to be easy to write, make it easy to read." — Robert C. Martin
 
 
 ## Features
