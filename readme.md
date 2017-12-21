@@ -7,11 +7,13 @@
 [npm]: https://www.npmjs.com/package/stylelint-config-readable
 [npm-img]: https://badge.fury.io/js/stylelint-config-readable.svg
 
+> "If you want your code to be easy to write, make it easy to read." — Robert C. Martin
+
 The aim of this configuration is to achieve optimal readable code for a large number of projects. In many cases, the easing of the code's looseness in comparison to its compactness is an advantage for this. The idea is that code is much more read than written. Clear and structured code is therefore valuable for each additional author.
 
-There is also the matching [ESLint Configuration](https://www.npmjs.com/package/eslint-config-readable) available.
+The code should appear uniform no matter how many authors are involved. But of course, it is not only about formatting (which could be fully solved with new tools like [Prettier](https://prettier.io/)) but also about avoiding errors and mentoring developers. As you will see the chosen infrastructure with ESLint as a backbone offers so much more.
 
-> "If you want your code to be easy to write, make it easy to read." — Robert C. Martin
+There is also the matching [ESLint Configuration](https://www.npmjs.com/package/eslint-config-readable) available.
 
 
 ## Features
@@ -52,7 +54,7 @@ extends:
   - stylelint-config-readable
 ```
 
-You can place your overrides and additions into the `rules` section as well:
+Though this configuration is meant to be usable without any further configuration you are naturally free to extend it and place overrides into your configuration e.g. by extending the `rules` section:
 
 ```yaml
 extends:
