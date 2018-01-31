@@ -29,6 +29,6 @@
     "stylelint-scss": "^2.2.0"
   },
   "devDependencies": {
-    "release-it": "^6.1.0"
+    "release-it": "^6.1.1"
   }
 }
