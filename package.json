@@ -20,12 +20,18 @@
   ],
   "license": "Apache-2.0",
   "repository": "https://github.com/sebastian-software/stylelint-config-readable",
-  "dependencies": {
+  "peerDependencies": {
+    "prettier": ">=1.12",
+    "stylelint": ">=9.2"
+  },
+  "devDependencies": {
     "prettier": "^1.12.1",
-    "stylelint": "^9.2.0",
+    "stylelint": "^9.2.0"
+  },
+  "dependencies": {
     "stylelint-formatter-pretty": "^1.0.3",
     "stylelint-order": "^0.8.1",
     "stylelint-performance-animation": "^1.2.2",
-    "stylelint-scss": "^3.0.1"
+    "stylelint-scss": "^3.1.0"
   }
 }
