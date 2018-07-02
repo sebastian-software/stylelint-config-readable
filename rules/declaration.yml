@@ -17,5 +17,3 @@ rules:
   declaration-colon-space-before: never
   declaration-empty-line-before: null
   declaration-no-important: true
-  declaration-property-unit-blacklist:
-    "line-height": ["px", "em", "rem"]

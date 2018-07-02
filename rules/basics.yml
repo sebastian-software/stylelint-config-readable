@@ -22,10 +22,10 @@ rules:
     - true
 
   # Warn on unknown properties, but add support for
-  # CSS Modules, PostCSS Responsive Type and PostCSS Losd Grid
+  # CSS Modules, PostCSS Responsive Type and PostCSS Lost Grid, Grid Kiss
   property-no-unknown:
     - true
-    - ignoreProperties: ["composes", "font-range", "/^lost-/"]
+    - ignoreProperties: [ "composes", "font-range", "/^lost-/", "grid-kiss" ]
 
   # Keyframe
   keyframe-declaration-no-important: true

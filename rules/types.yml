@@ -20,7 +20,7 @@ rules:
   # Color
   color-hex-case: lower
   color-hex-length: short
-  color-named: never
+  color-named: off
   color-no-hex: null
   color-no-invalid-hex: true
 
